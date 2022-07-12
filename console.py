@@ -24,20 +24,4 @@ album3 = Album("2nd Album", 'pop', artist3)
 album_repository.save(album3)
 
 
-
-# result = artist_repository.select(artist1.id)
-# print(result)
-
-# result = artist_repository.select_all()
-
-result = album_repository.select_all()
-
-result = album_repository.select_all_albums(artist1)
-
-# list_of_albums =[]
-
-# for artist in result:
-#     list_of_artists.append(artist.name)
-
-
 pdb.set_trace()
