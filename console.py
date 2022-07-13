@@ -23,8 +23,6 @@ album_repository.save(album2)
 album3 = Album("Future Nostalgia", 'pop', artist3)
 album_repository.save(album3)
 
-
-album_repository.delete(album1.id)
 artist_repository.delete(artist1.id)
 
 
